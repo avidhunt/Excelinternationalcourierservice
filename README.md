@@ -81,4 +81,4 @@
     
     <p>© 2025 Vodac Courier. All Rights Reserved.</p>
   </footer>
-  
+  <script src="script.js"></script>
