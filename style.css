@@ -18,7 +18,36 @@
   --fontStack-monospace: "Monaspace Neon", ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace !important;
 }
 </style>
+/* Tracking Progress Styles */
+.tracking-display {
+  margin-top: 20px;
+  text-align: left;
+  display: inline-block;
+}
 
+.tracking-status {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.tracking-steps {
+  list-style: none;
+  padding-left: 0;
+}
+
+.tracking-step {
+  background: #eaf7ff;
+  padding: 10px;
+  margin-bottom: 8px;
+  border-left: 5px solid #0072ff;
+  border-radius: 6px;
+  animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateX(-10px); }
+  to { opacity: 1; transform: translateX(0); }
+}
 
 
 
