@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #f9f9f9;
+  color: #333;
+}
+
+/* Header */
+.navbar {
+  background: #111;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+}
+
+.navbar li {
+  margin: 0 15px;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.navbar a:hover {
+  color: #00c4ff;
+}
+
+.logo {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+/* Hero */
+.hero {
+  background: linear-gradient(to right, #0072ff, #00c6ff);
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2.5em;
+  margin-bottom: 15px;
+}
+
+.btn {
+  display: inline-block;
+  background: white;
+  color: #0072ff;
+  padding: 10px 25px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background: #0072ff;
+  color: white;
+}
+
+/* Services */
+.services {
+  padding: 70px 20px;
+  text-align: center;
+  background: #fff;
+}
+
+.services h2 {
+  font-size: 2em;
+  margin-bottom: 40px;
+}
+
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+}
+
+.service-card {
+  background: #f1f1f1;
+  padding: 25px;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+.service-card:hover {
+  background: #e0f7ff;
+  transform: translateY(-5px);
+}
+
+/* Track */
+.track {
+  text-align: center;
+  padding: 70px 20px;
+  background: #f9fcff;
+}
+
+.track input {
+  padding: 10px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.track button {
+  margin-left: 10px;
+}
+
+/* About */
+.about {
+  padding: 70px 20px;
+  text-align: center;
+  background: #fff;
+}
+
+.about p {
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* Contact */
+.contact {
+  background: #f0f8ff;
+  padding: 70px 20px;
+  text-align: center;
+}
+
+.contact a {
+  color: #0072ff;
+  text-decoration: none;
+}
+
+/* Footer */
+footer {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
